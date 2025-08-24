@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-body);
+  line-height: 1.6;
+  background-color: var(--light-gray);
+  color: var(--dark-text);
+}
+
+h1, h2 {
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+}
+
+:root {
+  /* Cores da Paleta */
+  --primary-green: #4F7942;
+  --highlight-green: #A5D491;
+  --light-gray: #F5F5F5;
+  --dark-text: #333333;
+  --accent-beige: #D1B48C;
+
+  /* Fontes */
+  --font-family-body: 'Arial', sans-serif;
+  --font-family-heading: 'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+
+  /* Tamanhos de Fonte */
+  --font-size-xxs: 1rem;
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-md: 1.8rem;
+  --font-size-lg: 2.2rem;
+
+  /* Espaçamento */
+  --spacing-xxs: .4rem;
+  --spacing-xs: .8rem;
+  --spacing-sm: 1.2rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+}

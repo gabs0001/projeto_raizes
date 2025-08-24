@@ -1,0 +1,17 @@
+/* página principal */
+@import url('./partials/_header.css');
+@import url('./partials/_hero.css');
+@import url('./partials/_products.css');
+@import url('./partials/_about.css');
+@import url('./partials/_testimonials.css');
+@import url('./partials/_tips.css');
+@import url('./partials/_footer.css');
+
+/* produtos */
+@import url('./pages/products-page.css');
+
+/* sobre */
+@import url('./pages/about-page.css');
+
+/* contato */
+@import url('./pages/contact.css');

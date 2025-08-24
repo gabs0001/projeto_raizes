@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Raízes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/globals.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        
+        <div class="header__container">
+            
+            <a href="/assets/index.html" class="header__logo">
+                <h1 class="header__logo-text">
+                    <img src="/assets/images/logo.svg" alt="Logo da Raízes" class="header__logo-img">
+                    <span class="sr-only">Raízes</span>
+                </h1>
+            </a>
+
+            <nav class="header__nav" aria-label="Navegação Principal">
+                <ul class="header__menu">
+
+                    <li class="header__menu-item">
+                        <a href="/assets/index.html" class="header__menu-link">Home</a>
+                    </li>
+                    
+                    <li class="header__menu-item">
+                        <a href="products.html" class="header__menu-link">Produtos</a>
+                    </li>
+                    
+                    <li class="header__menu-item">
+                        <a href="about.html" class="header__menu-link">Sobre</a>
+                    </li>
+                    
+                    <li class="header__menu-item">
+                        <a href="contact.html" class="header__menu-link" aria-current="page">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        
+        <section class="contact">
+
+            <div class="contact__container">
+
+                <h2 class="contact__title">Fale Conosco</h2>
+                <p class="contact__subtitle">Entre em contato para tirar suas dúvidas ou enviar uma sugestão.</p>
+                
+                <div class="contact__content">
+                    
+                    <form action="#" method="POST" class="contact__form" id="contactForm">
+                        
+                        <fieldset class="form__grouping">
+                            <legend class="form__legend">Suas Informações</legend>
+                            <div class="form__group">
+                                <label for="name" class="form__label">Nome</label>
+                                <input type="text" id="name" name="name" class="form__input" placeholder="Seu nome completo" required>
+                                <span class="form__error-message"></span>
+                            </div>
+                            <div class="form__group">
+                                <label for="email" class="form__label">E-mail</label>
+                                <input type="email" id="email" name="email" class="form__input" placeholder="seu-email@exemplo.com" required>
+                                <span class="form__error-message"></span>
+                            </div>
+                        </fieldset>
+
+                        <div class="form__group">
+                            <label for="message" class="form__label">Mensagem</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            <span class="form__error-message"></span>
+                        </div>
+
+                        <button type="submit" class="form__submit">Enviar Mensagem</button>
+
+                    </form>
+
+                    <div class="contact__details">
+                        
+                        <h3 class="contact__details-title">Outras formas de contato</h3>
+                        <p class="contact__details-item">
+                            E-mail: <a href="mailto:contato@raizes.com.br" class="contact__details-link">contato@raizes.com.br</a>
+                        </p>
+                        
+                        <p class="contact__details-item">
+                            Telefone: <a href="tel:+5511999999999" class="contact__details-link">(11) 99999-9999</a>
+                        </p>
+                        
+                        <p class="contact__details-item">
+                            Endereço: Rua das Flores, 123 - São Paulo, SP
+                        </p>
+                    
+                    </div>
+
+                </div>
+            
+            </div>
+        
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        
+        <div class="footer__container">
+            
+            <div class="footer__links">
+
+                <h3 class="footer__title">Navegação</h3>
+                <ul class="footer__menu">
+
+                    <li class="footer__menu-item">
+                        <a href="../index.html" class="footer__menu-link">Home</a>
+                    </li>
+
+                    <li class="footer__menu-item">
+                        <a href="products.html" class="footer__menu-link">Produtos</a>
+                    </li>
+
+                    <li class="footer__menu-item">
+                        <a href="about.html" class="footer__menu-link">Sobre</a>
+                    </li>
+
+                    <li class="footer__menu-item">
+                        <a href="contact.html" class="footer__menu-link">Contato</a>
+                    </li>
+
+                </ul>
+                
+            </div>
+
+            <div class="footer__social">
+                <h3 class="footer__title">Redes Sociais</h3>
+                
+                <ul class="footer__social-links">
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="https://img.icons8.com/color/48/facebook.png" alt="Logo do Facebook"/>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="https://img.icons8.com/fluency/48/pinterest.png" alt="pinterest"/>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </div>
+
+        <div class="footer__copyright">
+            <p>&copy; 2024 Raízes. Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
